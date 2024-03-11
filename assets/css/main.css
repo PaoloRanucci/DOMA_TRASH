@@ -2297,7 +2297,7 @@ input, select, textarea {
 /* Page Wrapper */
 
 	#page-wrapper > section {
-		margin-bottom: 0;
+		margin-bottom: 30px;
 	}
 
 /* Header */
@@ -2540,7 +2540,7 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #C3B9B3;
+		/*border-top: solid 5px #C3B9B3;*/
 		border-bottom: solid 5px #C3B9B3;
 		border-top-width: 9px;
 		border-bottom-width: 10px;
