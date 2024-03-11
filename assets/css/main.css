@@ -217,13 +217,13 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 100%;
+		width: 64em;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 100%;
+				width: 75em;
 			}
 
 		}
@@ -2478,7 +2478,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/banner_DOMA.png");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -3105,29 +3105,3 @@ input, select, textarea {
 			}
 
 	}
-	
-/* created by me */
- .header_backimage {
-		background-image: url("images/HOME_HEADER.jpg");
-		height: 650px;
-		background-repeat: no-repeat;
-		background-size: cover;
-		min-height: 400px;
- }
- 
- .header_backimage .testo_big {
-	 font-size: 400%; 
-	 text-align: center;
-	 padding: 0 auto;
-	 font-weight: bold;
-	 font-family: 'Font Awesome 5 Brands';
-	 color: #333;
-	 line-height: 100%;
- }
- 
- .aboutus {
-	 width: 90%;
-	 padding: 0 auto;
-	 text-align: center;
-	 margin: 0 auto;
- }

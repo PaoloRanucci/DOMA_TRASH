@@ -217,13 +217,13 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 64em;
+		width: 100%;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 75em;
+				width: 100%;
 			}
 
 		}
@@ -3105,3 +3105,29 @@ input, select, textarea {
 			}
 
 	}
+	
+/* created by me */
+ .header_backimage {
+		background-image: url("images/HOME_HEADER.jpg");
+		height: 650px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 400px;
+ }
+ 
+ .header_backimage .testo_big {
+	 font-size: 400%; 
+	 text-align: center;
+	 padding: 0 auto;
+	 font-weight: bold;
+	 font-family: 'Font Awesome 5 Brands';
+	 color: #333;
+	 line-height: 100%;
+ }
+ 
+ .aboutus {
+	 width: 90%;
+	 padding: 0 auto;
+	 text-align: center;
+	 margin: 0 auto;
+ }
