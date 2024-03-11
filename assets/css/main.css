@@ -3111,7 +3111,8 @@ input, select, textarea {
 		background-image: url("images/HOME_HEADER.jpg");
 		height: 650px;
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: cover;
+		min-height: 400px;
  }
  
  .header_backimage .testo_big {
